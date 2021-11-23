@@ -1,0 +1,46 @@
+.banner{
+    background: url(Birthday.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+}
+p{
+    color: white;
+}
+.form_main{
+    height: 600px;
+    width: 500px;
+    /* background-color: gray; */
+    background: linear-gradient( 90deg,#33ccff, #ff99cc);
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.form_main form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 10px;
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.form_main form input::placeholder{
+    color: white;
+}
+.form_main button{
+    height: 40px;
+    width: 80px;
+    margin-left: 135px;
+    border-radius: 10px;
+    border: 0;
+    background-color: greenyellow;
+}
+.form_main label{
+    font-size: 30px;
+    color: tomato;
+}
+
+
